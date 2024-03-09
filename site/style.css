@@ -59,3 +59,8 @@ nav a {
     order: 3; /* exibição mobile*/
     display: none;
 }
+
+.active .item{
+    display: block;
+    
+}
