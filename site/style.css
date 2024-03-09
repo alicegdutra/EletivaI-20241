@@ -34,3 +34,28 @@ nav a {
 .item:not(button) a:hover{
     color: gray;
 }
+#menu{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+#menu li a{
+    padding: 1em;
+
+}
+
+#listras{
+    order: 1;
+    font-size: 1.25em;
+}
+
+.item.button{
+    order: 2; /* exibição mobile*/
+}
+
+.item{
+    order: 3; /* exibição mobile*/
+    display: none;
+}
