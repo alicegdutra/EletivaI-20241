@@ -41,9 +41,8 @@ nav a {
     align-items: baseline;
 }
 
-#menu li a{
+#menu li a {
     padding: 1em;
-
 }
 
 #listras{
@@ -52,7 +51,16 @@ nav a {
 }
 
 .item.button{
-    order: 2; /* exibição mobile*/
+    order: 2;
+}
+
+.item{
+    order: 3;
+    display: none;
+}
+
+.active .item {
+    display: block;
 }
 
 .item{
@@ -62,5 +70,5 @@ nav a {
 
 .active .item{
     display: block;
-    
+
 }

@@ -1,4 +1,4 @@
-let listras = document.querySelector("#litras");
+let listras = document.querySelector("#listras");
 let menu = document.querySelector("#menu");
 let itens = document.querySelectorAll(".item");
 
@@ -8,7 +8,7 @@ function abrirMenu(){
         listras.querySelector("a").innerHTML = "<i class= 'fas fa-bars'></i>";
     }  else{
         menu.classList.add("active");
-        listras.querySelector("a").innerHtml = "<i class = 'fas fa-times'></i>"
+        listras.querySelector("a").innerHtml = "<i class = ' fa fa-times'></i>";
     
     }  
 }
